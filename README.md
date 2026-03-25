@@ -11,22 +11,22 @@ This project is designed to satisfy the following conditions:
 4. Performance under high update rate
 
 ## Project Structure 
-leaderboard/
-├── server/
-│   └── server.py
-├── client_python/
-│   └── client.py
-├── tests/
-│   ├── test_concurrent.py
-│   └── load_test.py
-├── certs/
-│   ├── gen_certs.sh
-│   ├── san.cnf
-│   ├── server.crt          # generated locally
-│   └── server.key          # generated locally
-├── docs/
-│   └── protocol.md
-└── README.md
+leaderboard/  
+├── server/  
+│   └── server.py  
+├── client_python/  
+│   └── client.py  
+├── tests/  
+│   ├── test_concurrent.py  
+│   └── load_test.py  
+├── certs/  
+│   ├── gen_certs.sh  
+│   ├── san.cnf  
+│   ├── server.crt          # generated locally  
+│   └── server.key          # generated locally  
+├── docs/  
+│   └── protocol.md  
+└── README.md  
 
 ## Setup
 
