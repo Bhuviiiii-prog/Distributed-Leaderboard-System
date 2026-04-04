@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 # TODO: Add load test to measure throughput and latency under high update rates.
 
 #!/usr/bin/env python3  # Run using Python 3
 
+=======
+#!/usr/bin/env python3
+>>>>>>> 0c4e5d7ea4e649a5cd886e724e679585497a8385
 """
 load_test.py — Performance Evaluation
 Measures throughput, avg latency, P99 latency across concurrency levels.
@@ -245,5 +249,9 @@ if __name__ == "__main__":
         print(f"  {r['clients']:>8} | {r['throughput']:>20.1f} | "
               f"{r['avg_lat_ms']:>10.2f} | {r['p99_lat_ms']:>10.2f}")
 
+<<<<<<< HEAD
     # Generate graphs
     plot(results)
+=======
+    plot(results)
+>>>>>>> 0c4e5d7ea4e649a5cd886e724e679585497a8385
