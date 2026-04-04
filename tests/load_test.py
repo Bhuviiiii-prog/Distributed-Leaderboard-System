@@ -1,4 +1,3 @@
-# TODO: Add load test to measure throughput and latency under high update rates.
 #!/usr/bin/env python3
 """
 load_test.py — Performance Evaluation
