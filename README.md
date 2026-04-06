@@ -10,8 +10,8 @@ This project is designed to satisfy the following conditions:
 3. Conflict resolution (Last-Write-Wins)
 4. Performance under high update rate
 
-## Project Structure 
-leaderboard/  
+## Project Structure  
+leaderboard/    
 ├── server/  
 │   └── server.py  
 ├── client_python/  
@@ -22,8 +22,8 @@ leaderboard/
 ├── certs/  
 │   ├── gen_certs.sh  
 │   ├── san.cnf  
-│   ├── server.crt          # generated locally  
-│   └── server.key          # generated locally  
+│   ├── server.crt  
+│   └── server.key  
 ├── docs/  
 │   └── protocol.md  
 └── README.md  
@@ -87,8 +87,8 @@ python3 tests/load_test.py --levels 1 5 10 20 50 --requests 20
 - [ ] Add concurrency tests in tests/test_concurrent.py
 - [ ] Add load tests in tests/load_test.py
 
-##Team Members
-Bollavaram Santosh Kumar
-Bheema Varshini
-Bhuvigna Reddy A T
+## Team Members  
+Bollavaram Santosh Kumar   
+Bheema Varshini   
+Bhuvigna Reddy A T   
 
